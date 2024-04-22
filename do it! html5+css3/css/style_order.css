@@ -1,0 +1,26 @@
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+ul{
+    list-style-type: none; /*불릿 없앰*/
+}
+label.title{    /*title class이며 label태그를 가진 곳에 적용*/
+    font-weight: bold;
+    width: 80px;
+    float: left;
+}
+div.centered{
+    text-align: center;
+}
+fieldset{
+    margin: 15px 10px;
+}
+fieldset legend{
+    font-weight: bold;
+    font-size: 18px;
+    color: purple;
+}
+ul li{
+    margin-bottom: 10px;
+}

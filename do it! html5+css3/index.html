@@ -4,8 +4,11 @@
 <head>
 	<title>온라인 프로필</title>
 	<meta charset="utf-8">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javsscript/prefixfree.min.js"></script>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
     table {
       width:70%;  /* 표의 너비 */
       border:1px solid #222; /* 1픽셀짜리 표 테두리 */
@@ -30,6 +33,11 @@
         display:inline-block; /*항목을 가로로 배열*/
         width: 80px;    /*각 항목의 너비*/
     }
+    .gaegu-regular {
+        font-family: "Gaegu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
   </style>
 </head>
 
@@ -40,7 +48,7 @@
             <div id="namecard">
                 <img src="images/Yubi_profile.jpg" alt="my cat yubi" width="200px">
                 <h1>Digesend An</h1>
-                <p>자! 이제 시작이야~</p>
+                <p class="gaegu-regular">자! 이제 시작이야~</p>
             </div>
             <div id="detail">
                 <p>Jeju, Korea</p>
